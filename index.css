@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+#task-list {
+    list-style: none;
+    padding: 0;
+}
+
+#task-list li {
+    background-color: #f2f2f2;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+#task-list li:hover {
+    cursor: pointer;
+    background-color: #e6e6e6;
+}
+
+#task-list li.completed {
+    text-decoration: line-through;
+}
